@@ -552,7 +552,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "ba9a37395a7dfd462acab92a440f36d5.mp3");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("ba9a37395a7dfd462acab92a440f36d5.mp3");
 
 /***/ }),
 
