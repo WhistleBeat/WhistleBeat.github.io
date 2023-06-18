@@ -8344,6 +8344,7 @@ function pauseMusic() {
     audioElement.pause();
 }
 function main() {
+    audioContext = new AudioContext();
     audioElement = new Audio(_0_mp3__WEBPACK_IMPORTED_MODULE_6__["default"]);
     audioElement.crossOrigin = "anonymous";
     audioElement.autoplay = true;
