@@ -552,7 +552,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("ba9a37395a7dfd462acab92a440f36d5.mp3");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "ba9a37395a7dfd462acab92a440f36d5.mp3");
 
 /***/ }),
 
@@ -8329,7 +8329,7 @@ function loadScene() {
 }
 function resetParameters() {
     controls.octaves = 1;
-    controls.separation = 0.65;
+    controls.separation = 0.5;
     controls.persistence = 1.0;
     controls.scale = 1.0;
     controls.glow = 10;
@@ -8348,6 +8348,7 @@ function main() {
     audioElement = new Audio(_0_mp3__WEBPACK_IMPORTED_MODULE_6__["default"]);
     audioElement.crossOrigin = "anonymous";
     audioElement.autoplay = true;
+    audioElement.loop = true;
     const track = audioContext.createMediaElementSource(audioElement);
     track.connect(audioContext.destination);
     const audioAnalyser = audioContext.createAnalyser();
@@ -8535,6 +8536,8 @@ function main() {
     tick();
 }
 window.onclick = function () {
+    var _a;
+    (_a = document.getElementById('lottie')) === null || _a === void 0 ? void 0 : _a.remove();
     main();
 };
 
