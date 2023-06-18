@@ -1724,12 +1724,12 @@ function transpose(out, a) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "EPSILON": () => (/* binding */ EPSILON),
-/* harmony export */   "ARRAY_TYPE": () => (/* binding */ ARRAY_TYPE),
-/* harmony export */   "RANDOM": () => (/* binding */ RANDOM),
-/* harmony export */   "setMatrixArrayType": () => (/* binding */ setMatrixArrayType),
-/* harmony export */   "toRadian": () => (/* binding */ toRadian),
-/* harmony export */   "equals": () => (/* binding */ equals)
+/* harmony export */   ARRAY_TYPE: () => (/* binding */ ARRAY_TYPE),
+/* harmony export */   EPSILON: () => (/* binding */ EPSILON),
+/* harmony export */   RANDOM: () => (/* binding */ RANDOM),
+/* harmony export */   equals: () => (/* binding */ equals),
+/* harmony export */   setMatrixArrayType: () => (/* binding */ setMatrixArrayType),
+/* harmony export */   toRadian: () => (/* binding */ toRadian)
 /* harmony export */ });
 /**
  * Common utilities
@@ -1793,53 +1793,53 @@ if (!Math.hypot) Math.hypot = function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "create": () => (/* binding */ create),
-/* harmony export */   "clone": () => (/* binding */ clone),
-/* harmony export */   "copy": () => (/* binding */ copy),
-/* harmony export */   "fromValues": () => (/* binding */ fromValues),
-/* harmony export */   "set": () => (/* binding */ set),
-/* harmony export */   "identity": () => (/* binding */ identity),
-/* harmony export */   "transpose": () => (/* binding */ transpose),
-/* harmony export */   "invert": () => (/* binding */ invert),
-/* harmony export */   "adjoint": () => (/* binding */ adjoint),
-/* harmony export */   "determinant": () => (/* binding */ determinant),
-/* harmony export */   "multiply": () => (/* binding */ multiply),
-/* harmony export */   "translate": () => (/* binding */ translate),
-/* harmony export */   "scale": () => (/* binding */ scale),
-/* harmony export */   "rotate": () => (/* binding */ rotate),
-/* harmony export */   "rotateX": () => (/* binding */ rotateX),
-/* harmony export */   "rotateY": () => (/* binding */ rotateY),
-/* harmony export */   "rotateZ": () => (/* binding */ rotateZ),
-/* harmony export */   "fromTranslation": () => (/* binding */ fromTranslation),
-/* harmony export */   "fromScaling": () => (/* binding */ fromScaling),
-/* harmony export */   "fromRotation": () => (/* binding */ fromRotation),
-/* harmony export */   "fromXRotation": () => (/* binding */ fromXRotation),
-/* harmony export */   "fromYRotation": () => (/* binding */ fromYRotation),
-/* harmony export */   "fromZRotation": () => (/* binding */ fromZRotation),
-/* harmony export */   "fromRotationTranslation": () => (/* binding */ fromRotationTranslation),
-/* harmony export */   "fromQuat2": () => (/* binding */ fromQuat2),
-/* harmony export */   "getTranslation": () => (/* binding */ getTranslation),
-/* harmony export */   "getScaling": () => (/* binding */ getScaling),
-/* harmony export */   "getRotation": () => (/* binding */ getRotation),
-/* harmony export */   "fromRotationTranslationScale": () => (/* binding */ fromRotationTranslationScale),
-/* harmony export */   "fromRotationTranslationScaleOrigin": () => (/* binding */ fromRotationTranslationScaleOrigin),
-/* harmony export */   "fromQuat": () => (/* binding */ fromQuat),
-/* harmony export */   "frustum": () => (/* binding */ frustum),
-/* harmony export */   "perspective": () => (/* binding */ perspective),
-/* harmony export */   "perspectiveFromFieldOfView": () => (/* binding */ perspectiveFromFieldOfView),
-/* harmony export */   "ortho": () => (/* binding */ ortho),
-/* harmony export */   "lookAt": () => (/* binding */ lookAt),
-/* harmony export */   "targetTo": () => (/* binding */ targetTo),
-/* harmony export */   "str": () => (/* binding */ str),
-/* harmony export */   "frob": () => (/* binding */ frob),
-/* harmony export */   "add": () => (/* binding */ add),
-/* harmony export */   "subtract": () => (/* binding */ subtract),
-/* harmony export */   "multiplyScalar": () => (/* binding */ multiplyScalar),
-/* harmony export */   "multiplyScalarAndAdd": () => (/* binding */ multiplyScalarAndAdd),
-/* harmony export */   "exactEquals": () => (/* binding */ exactEquals),
-/* harmony export */   "equals": () => (/* binding */ equals),
-/* harmony export */   "mul": () => (/* binding */ mul),
-/* harmony export */   "sub": () => (/* binding */ sub)
+/* harmony export */   add: () => (/* binding */ add),
+/* harmony export */   adjoint: () => (/* binding */ adjoint),
+/* harmony export */   clone: () => (/* binding */ clone),
+/* harmony export */   copy: () => (/* binding */ copy),
+/* harmony export */   create: () => (/* binding */ create),
+/* harmony export */   determinant: () => (/* binding */ determinant),
+/* harmony export */   equals: () => (/* binding */ equals),
+/* harmony export */   exactEquals: () => (/* binding */ exactEquals),
+/* harmony export */   frob: () => (/* binding */ frob),
+/* harmony export */   fromQuat: () => (/* binding */ fromQuat),
+/* harmony export */   fromQuat2: () => (/* binding */ fromQuat2),
+/* harmony export */   fromRotation: () => (/* binding */ fromRotation),
+/* harmony export */   fromRotationTranslation: () => (/* binding */ fromRotationTranslation),
+/* harmony export */   fromRotationTranslationScale: () => (/* binding */ fromRotationTranslationScale),
+/* harmony export */   fromRotationTranslationScaleOrigin: () => (/* binding */ fromRotationTranslationScaleOrigin),
+/* harmony export */   fromScaling: () => (/* binding */ fromScaling),
+/* harmony export */   fromTranslation: () => (/* binding */ fromTranslation),
+/* harmony export */   fromValues: () => (/* binding */ fromValues),
+/* harmony export */   fromXRotation: () => (/* binding */ fromXRotation),
+/* harmony export */   fromYRotation: () => (/* binding */ fromYRotation),
+/* harmony export */   fromZRotation: () => (/* binding */ fromZRotation),
+/* harmony export */   frustum: () => (/* binding */ frustum),
+/* harmony export */   getRotation: () => (/* binding */ getRotation),
+/* harmony export */   getScaling: () => (/* binding */ getScaling),
+/* harmony export */   getTranslation: () => (/* binding */ getTranslation),
+/* harmony export */   identity: () => (/* binding */ identity),
+/* harmony export */   invert: () => (/* binding */ invert),
+/* harmony export */   lookAt: () => (/* binding */ lookAt),
+/* harmony export */   mul: () => (/* binding */ mul),
+/* harmony export */   multiply: () => (/* binding */ multiply),
+/* harmony export */   multiplyScalar: () => (/* binding */ multiplyScalar),
+/* harmony export */   multiplyScalarAndAdd: () => (/* binding */ multiplyScalarAndAdd),
+/* harmony export */   ortho: () => (/* binding */ ortho),
+/* harmony export */   perspective: () => (/* binding */ perspective),
+/* harmony export */   perspectiveFromFieldOfView: () => (/* binding */ perspectiveFromFieldOfView),
+/* harmony export */   rotate: () => (/* binding */ rotate),
+/* harmony export */   rotateX: () => (/* binding */ rotateX),
+/* harmony export */   rotateY: () => (/* binding */ rotateY),
+/* harmony export */   rotateZ: () => (/* binding */ rotateZ),
+/* harmony export */   scale: () => (/* binding */ scale),
+/* harmony export */   set: () => (/* binding */ set),
+/* harmony export */   str: () => (/* binding */ str),
+/* harmony export */   sub: () => (/* binding */ sub),
+/* harmony export */   subtract: () => (/* binding */ subtract),
+/* harmony export */   targetTo: () => (/* binding */ targetTo),
+/* harmony export */   translate: () => (/* binding */ translate),
+/* harmony export */   transpose: () => (/* binding */ transpose)
 /* harmony export */ });
 /* harmony import */ var _common_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./common.js */ "./node_modules/gl-matrix/esm/common.js");
 
@@ -3668,54 +3668,54 @@ var sub = subtract;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "create": () => (/* binding */ create),
-/* harmony export */   "clone": () => (/* binding */ clone),
-/* harmony export */   "length": () => (/* binding */ length),
-/* harmony export */   "fromValues": () => (/* binding */ fromValues),
-/* harmony export */   "copy": () => (/* binding */ copy),
-/* harmony export */   "set": () => (/* binding */ set),
-/* harmony export */   "add": () => (/* binding */ add),
-/* harmony export */   "subtract": () => (/* binding */ subtract),
-/* harmony export */   "multiply": () => (/* binding */ multiply),
-/* harmony export */   "divide": () => (/* binding */ divide),
-/* harmony export */   "ceil": () => (/* binding */ ceil),
-/* harmony export */   "floor": () => (/* binding */ floor),
-/* harmony export */   "min": () => (/* binding */ min),
-/* harmony export */   "max": () => (/* binding */ max),
-/* harmony export */   "round": () => (/* binding */ round),
-/* harmony export */   "scale": () => (/* binding */ scale),
-/* harmony export */   "scaleAndAdd": () => (/* binding */ scaleAndAdd),
-/* harmony export */   "distance": () => (/* binding */ distance),
-/* harmony export */   "squaredDistance": () => (/* binding */ squaredDistance),
-/* harmony export */   "squaredLength": () => (/* binding */ squaredLength),
-/* harmony export */   "negate": () => (/* binding */ negate),
-/* harmony export */   "inverse": () => (/* binding */ inverse),
-/* harmony export */   "normalize": () => (/* binding */ normalize),
-/* harmony export */   "dot": () => (/* binding */ dot),
-/* harmony export */   "cross": () => (/* binding */ cross),
-/* harmony export */   "lerp": () => (/* binding */ lerp),
-/* harmony export */   "hermite": () => (/* binding */ hermite),
-/* harmony export */   "bezier": () => (/* binding */ bezier),
-/* harmony export */   "random": () => (/* binding */ random),
-/* harmony export */   "transformMat4": () => (/* binding */ transformMat4),
-/* harmony export */   "transformMat3": () => (/* binding */ transformMat3),
-/* harmony export */   "transformQuat": () => (/* binding */ transformQuat),
-/* harmony export */   "rotateX": () => (/* binding */ rotateX),
-/* harmony export */   "rotateY": () => (/* binding */ rotateY),
-/* harmony export */   "rotateZ": () => (/* binding */ rotateZ),
-/* harmony export */   "angle": () => (/* binding */ angle),
-/* harmony export */   "zero": () => (/* binding */ zero),
-/* harmony export */   "str": () => (/* binding */ str),
-/* harmony export */   "exactEquals": () => (/* binding */ exactEquals),
-/* harmony export */   "equals": () => (/* binding */ equals),
-/* harmony export */   "sub": () => (/* binding */ sub),
-/* harmony export */   "mul": () => (/* binding */ mul),
-/* harmony export */   "div": () => (/* binding */ div),
-/* harmony export */   "dist": () => (/* binding */ dist),
-/* harmony export */   "sqrDist": () => (/* binding */ sqrDist),
-/* harmony export */   "len": () => (/* binding */ len),
-/* harmony export */   "sqrLen": () => (/* binding */ sqrLen),
-/* harmony export */   "forEach": () => (/* binding */ forEach)
+/* harmony export */   add: () => (/* binding */ add),
+/* harmony export */   angle: () => (/* binding */ angle),
+/* harmony export */   bezier: () => (/* binding */ bezier),
+/* harmony export */   ceil: () => (/* binding */ ceil),
+/* harmony export */   clone: () => (/* binding */ clone),
+/* harmony export */   copy: () => (/* binding */ copy),
+/* harmony export */   create: () => (/* binding */ create),
+/* harmony export */   cross: () => (/* binding */ cross),
+/* harmony export */   dist: () => (/* binding */ dist),
+/* harmony export */   distance: () => (/* binding */ distance),
+/* harmony export */   div: () => (/* binding */ div),
+/* harmony export */   divide: () => (/* binding */ divide),
+/* harmony export */   dot: () => (/* binding */ dot),
+/* harmony export */   equals: () => (/* binding */ equals),
+/* harmony export */   exactEquals: () => (/* binding */ exactEquals),
+/* harmony export */   floor: () => (/* binding */ floor),
+/* harmony export */   forEach: () => (/* binding */ forEach),
+/* harmony export */   fromValues: () => (/* binding */ fromValues),
+/* harmony export */   hermite: () => (/* binding */ hermite),
+/* harmony export */   inverse: () => (/* binding */ inverse),
+/* harmony export */   len: () => (/* binding */ len),
+/* harmony export */   length: () => (/* binding */ length),
+/* harmony export */   lerp: () => (/* binding */ lerp),
+/* harmony export */   max: () => (/* binding */ max),
+/* harmony export */   min: () => (/* binding */ min),
+/* harmony export */   mul: () => (/* binding */ mul),
+/* harmony export */   multiply: () => (/* binding */ multiply),
+/* harmony export */   negate: () => (/* binding */ negate),
+/* harmony export */   normalize: () => (/* binding */ normalize),
+/* harmony export */   random: () => (/* binding */ random),
+/* harmony export */   rotateX: () => (/* binding */ rotateX),
+/* harmony export */   rotateY: () => (/* binding */ rotateY),
+/* harmony export */   rotateZ: () => (/* binding */ rotateZ),
+/* harmony export */   round: () => (/* binding */ round),
+/* harmony export */   scale: () => (/* binding */ scale),
+/* harmony export */   scaleAndAdd: () => (/* binding */ scaleAndAdd),
+/* harmony export */   set: () => (/* binding */ set),
+/* harmony export */   sqrDist: () => (/* binding */ sqrDist),
+/* harmony export */   sqrLen: () => (/* binding */ sqrLen),
+/* harmony export */   squaredDistance: () => (/* binding */ squaredDistance),
+/* harmony export */   squaredLength: () => (/* binding */ squaredLength),
+/* harmony export */   str: () => (/* binding */ str),
+/* harmony export */   sub: () => (/* binding */ sub),
+/* harmony export */   subtract: () => (/* binding */ subtract),
+/* harmony export */   transformMat3: () => (/* binding */ transformMat3),
+/* harmony export */   transformMat4: () => (/* binding */ transformMat4),
+/* harmony export */   transformQuat: () => (/* binding */ transformQuat),
+/* harmony export */   zero: () => (/* binding */ zero)
 /* harmony export */ });
 /* harmony import */ var _common_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./common.js */ "./node_modules/gl-matrix/esm/common.js");
 
@@ -4517,47 +4517,47 @@ var forEach = function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "create": () => (/* binding */ create),
-/* harmony export */   "clone": () => (/* binding */ clone),
-/* harmony export */   "fromValues": () => (/* binding */ fromValues),
-/* harmony export */   "copy": () => (/* binding */ copy),
-/* harmony export */   "set": () => (/* binding */ set),
-/* harmony export */   "add": () => (/* binding */ add),
-/* harmony export */   "subtract": () => (/* binding */ subtract),
-/* harmony export */   "multiply": () => (/* binding */ multiply),
-/* harmony export */   "divide": () => (/* binding */ divide),
-/* harmony export */   "ceil": () => (/* binding */ ceil),
-/* harmony export */   "floor": () => (/* binding */ floor),
-/* harmony export */   "min": () => (/* binding */ min),
-/* harmony export */   "max": () => (/* binding */ max),
-/* harmony export */   "round": () => (/* binding */ round),
-/* harmony export */   "scale": () => (/* binding */ scale),
-/* harmony export */   "scaleAndAdd": () => (/* binding */ scaleAndAdd),
-/* harmony export */   "distance": () => (/* binding */ distance),
-/* harmony export */   "squaredDistance": () => (/* binding */ squaredDistance),
-/* harmony export */   "length": () => (/* binding */ length),
-/* harmony export */   "squaredLength": () => (/* binding */ squaredLength),
-/* harmony export */   "negate": () => (/* binding */ negate),
-/* harmony export */   "inverse": () => (/* binding */ inverse),
-/* harmony export */   "normalize": () => (/* binding */ normalize),
-/* harmony export */   "dot": () => (/* binding */ dot),
-/* harmony export */   "cross": () => (/* binding */ cross),
-/* harmony export */   "lerp": () => (/* binding */ lerp),
-/* harmony export */   "random": () => (/* binding */ random),
-/* harmony export */   "transformMat4": () => (/* binding */ transformMat4),
-/* harmony export */   "transformQuat": () => (/* binding */ transformQuat),
-/* harmony export */   "zero": () => (/* binding */ zero),
-/* harmony export */   "str": () => (/* binding */ str),
-/* harmony export */   "exactEquals": () => (/* binding */ exactEquals),
-/* harmony export */   "equals": () => (/* binding */ equals),
-/* harmony export */   "sub": () => (/* binding */ sub),
-/* harmony export */   "mul": () => (/* binding */ mul),
-/* harmony export */   "div": () => (/* binding */ div),
-/* harmony export */   "dist": () => (/* binding */ dist),
-/* harmony export */   "sqrDist": () => (/* binding */ sqrDist),
-/* harmony export */   "len": () => (/* binding */ len),
-/* harmony export */   "sqrLen": () => (/* binding */ sqrLen),
-/* harmony export */   "forEach": () => (/* binding */ forEach)
+/* harmony export */   add: () => (/* binding */ add),
+/* harmony export */   ceil: () => (/* binding */ ceil),
+/* harmony export */   clone: () => (/* binding */ clone),
+/* harmony export */   copy: () => (/* binding */ copy),
+/* harmony export */   create: () => (/* binding */ create),
+/* harmony export */   cross: () => (/* binding */ cross),
+/* harmony export */   dist: () => (/* binding */ dist),
+/* harmony export */   distance: () => (/* binding */ distance),
+/* harmony export */   div: () => (/* binding */ div),
+/* harmony export */   divide: () => (/* binding */ divide),
+/* harmony export */   dot: () => (/* binding */ dot),
+/* harmony export */   equals: () => (/* binding */ equals),
+/* harmony export */   exactEquals: () => (/* binding */ exactEquals),
+/* harmony export */   floor: () => (/* binding */ floor),
+/* harmony export */   forEach: () => (/* binding */ forEach),
+/* harmony export */   fromValues: () => (/* binding */ fromValues),
+/* harmony export */   inverse: () => (/* binding */ inverse),
+/* harmony export */   len: () => (/* binding */ len),
+/* harmony export */   length: () => (/* binding */ length),
+/* harmony export */   lerp: () => (/* binding */ lerp),
+/* harmony export */   max: () => (/* binding */ max),
+/* harmony export */   min: () => (/* binding */ min),
+/* harmony export */   mul: () => (/* binding */ mul),
+/* harmony export */   multiply: () => (/* binding */ multiply),
+/* harmony export */   negate: () => (/* binding */ negate),
+/* harmony export */   normalize: () => (/* binding */ normalize),
+/* harmony export */   random: () => (/* binding */ random),
+/* harmony export */   round: () => (/* binding */ round),
+/* harmony export */   scale: () => (/* binding */ scale),
+/* harmony export */   scaleAndAdd: () => (/* binding */ scaleAndAdd),
+/* harmony export */   set: () => (/* binding */ set),
+/* harmony export */   sqrDist: () => (/* binding */ sqrDist),
+/* harmony export */   sqrLen: () => (/* binding */ sqrLen),
+/* harmony export */   squaredDistance: () => (/* binding */ squaredDistance),
+/* harmony export */   squaredLength: () => (/* binding */ squaredLength),
+/* harmony export */   str: () => (/* binding */ str),
+/* harmony export */   sub: () => (/* binding */ sub),
+/* harmony export */   subtract: () => (/* binding */ subtract),
+/* harmony export */   transformMat4: () => (/* binding */ transformMat4),
+/* harmony export */   transformQuat: () => (/* binding */ transformQuat),
+/* harmony export */   zero: () => (/* binding */ zero)
 /* harmony export */ });
 /* harmony import */ var _common_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./common.js */ "./node_modules/gl-matrix/esm/common.js");
 
@@ -7267,8 +7267,8 @@ class Square extends _rendering_gl_Drawable__WEBPACK_IMPORTED_MODULE_0__["defaul
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "gl": () => (/* binding */ gl),
-/* harmony export */   "setGL": () => (/* binding */ setGL)
+/* harmony export */   gl: () => (/* binding */ gl),
+/* harmony export */   setGL: () => (/* binding */ setGL)
 /* harmony export */ });
 var gl;
 function setGL(_gl) {
@@ -7417,7 +7417,7 @@ class OpenGLRenderer {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Shader": () => (/* binding */ Shader),
+/* harmony export */   Shader: () => (/* binding */ Shader),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var gl_matrix__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gl-matrix */ "./node_modules/gl-matrix/esm/mat4.js");
@@ -8344,12 +8344,18 @@ function pauseMusic() {
     audioElement.pause();
 }
 function main() {
-    audioContext = new AudioContext();
-    audioElement = new Audio(_0_mp3__WEBPACK_IMPORTED_MODULE_6__["default"]);
+    audioElement = document.createElement('audio');
+    audioElement.style.display = "none";
+    audioElement.src = _0_mp3__WEBPACK_IMPORTED_MODULE_6__["default"];
     audioElement.crossOrigin = "anonymous";
+    audioElement.setAttribute('muted', '');
     audioElement.autoplay = true;
-    audioElement.muted = true;
-    const track = audioContext.createMediaElementSource(audioElement);
+    audioElement.loop = true;
+    document.body.appendChild(audioElement);
+    audioContext = new AudioContext();
+    const track = new MediaStreamAudioSourceNode(audioContext, 
+    //@ts-ignore
+    { mediaStream: audioElement.captureStream() });
     track.connect(audioContext.destination);
     const audioAnalyser = audioContext.createAnalyser();
     audioAnalyser.fftSize = 2048;
