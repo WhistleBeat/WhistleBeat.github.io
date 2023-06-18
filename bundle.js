@@ -8344,18 +8344,12 @@ function pauseMusic() {
     audioElement.pause();
 }
 function main() {
-    audioElement = document.createElement('audio');
-    audioElement.style.display = "none";
-    audioElement.src = _0_mp3__WEBPACK_IMPORTED_MODULE_6__["default"];
+    audioElement = new Audio(_0_mp3__WEBPACK_IMPORTED_MODULE_6__["default"]);
     audioElement.crossOrigin = "anonymous";
-    audioElement.setAttribute('muted', '');
     audioElement.autoplay = true;
-    audioElement.loop = true;
-    document.body.appendChild(audioElement);
-    audioContext = new AudioContext();
-    const track = new MediaStreamAudioSourceNode(audioContext, 
-    //@ts-ignore
-    { mediaStream: audioElement.captureStream() });
+    audioElement.muted = true;
+    audioElement.volume = 0;
+    const track = audioContext.createMediaElementSource(audioElement);
     track.connect(audioContext.destination);
     const audioAnalyser = audioContext.createAnalyser();
     audioAnalyser.fftSize = 2048;
@@ -8541,7 +8535,9 @@ function main() {
     // Start the render loop
     tick();
 }
-main();
+window.onclick = function () {
+    main();
+};
 
 })();
 
