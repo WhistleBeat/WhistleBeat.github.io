@@ -8348,8 +8348,6 @@ function main() {
     audioElement = new Audio(_0_mp3__WEBPACK_IMPORTED_MODULE_6__["default"]);
     audioElement.crossOrigin = "anonymous";
     audioElement.autoplay = true;
-    audioElement.muted = true;
-    audioElement.volume = 0;
     const track = audioContext.createMediaElementSource(audioElement);
     track.connect(audioContext.destination);
     const audioAnalyser = audioContext.createAnalyser();
